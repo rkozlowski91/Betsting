@@ -7,7 +7,7 @@ st.title('Betsting')
 st.text('backtesting sport betting app, beta version 1.0')
 
 def nba_data():
-    df=pd.read_excel('NBA odds database_app_Betsting.xlsx')
+    df=pd.read_csv('NBA odds database_app_Betsting.csv')
     return df
 df = nba_data()
 
