@@ -231,7 +231,7 @@ statistics_table
 
 st.markdown('___')
 
-how_to_use = st.beta_expander('How to use Betsing app?')
+how_to_use = st.expander('How to use Betsing app?')
 with how_to_use:
     
     st.text(''' 
@@ -256,7 +256,7 @@ with how_to_use:
     ''')
         
 
-interpretation = st.beta_expander('How to interpret the result?')
+interpretation = st.expander('How to interpret the result?')
 with interpretation:
     st.text(''' 
 
@@ -285,7 +285,7 @@ with interpretation:
 
     ''')
 
-about = st.beta_expander('About Betsting')
+about = st.expander('About Betsting')
 with about:
     st.text(''' 
     
